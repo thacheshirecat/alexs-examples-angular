@@ -1,0 +1,28 @@
+<div class="modal-container">
+  <div class="sample-text">
+    Take The Test:
+  </div>
+  <hr>
+  <div>
+    <form>
+      <label>How Old Is Your Home?</label>
+      <select name="house-age">
+        <option value="0">0-20 Years</option>
+        <option value="1">21-40 Years</option>
+        <option value="2">41-60 Years</option>
+        <option value="3">61-80 Years</option>
+        <option value="4">81-100 Years</option>
+        <option value="5">Over 100 Years</option>
+      </select>
+      <hr>
+      <label for="house-deaths">To Your Knowledge, Has Anyone Ever Died In The Home?</label>
+      <input type="radio" name="house-deaths" class="radio-select" value=2> Yes <br>
+      <input type="radio" name="house-deaths" class="radio-select" value=0> No <br>
+      <input type="radio" name="house-deaths" class="radio-select" value=1> Unsure <br>
+      <hr>
+    </form>
+  </div>
+  <div class="submit">
+    <button class="btn btn-info" (click)="close()">Submit</button>
+  </div>
+</div>

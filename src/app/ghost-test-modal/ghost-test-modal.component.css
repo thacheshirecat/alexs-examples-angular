@@ -1,0 +1,18 @@
+.modal-container{
+  display:grid;
+  grid-template-columns: 1fr;
+}
+.sample-text{
+  color: black;
+  font-size: 20px;
+  text-align:center;
+}
+.submit{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align:center;
+}
+label {
+  font-weight: bold;
+  display: block;
+}

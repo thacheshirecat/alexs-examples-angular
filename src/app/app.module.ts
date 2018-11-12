@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AlgorithmsComponent } from './algorithms/algorithms.component';
 import { GhostsComponent } from './ghosts/ghosts.component';
+import { GhostTestModal } from './ghost-test-modal/ghost-test-modal.component';
 
 
 @NgModule({
@@ -14,12 +15,14 @@ import { GhostsComponent } from './ghosts/ghosts.component';
     AppComponent,
     WelcomeComponent,
     AlgorithmsComponent,
-    GhostsComponent
+    GhostsComponent,
+    GhostTestModal
   ],
   imports: [
     BrowserModule,
     routing
   ],
+  entryComponents: [GhostTestModal],
   providers: [],
   bootstrap: [AppComponent]
 })
