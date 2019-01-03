@@ -1,0 +1,31 @@
+button {
+  background-color:  #DAF7A6;
+  display: block;
+  margin-right: 75%;
+  margin-left: 1%;
+}
+input {
+  margin-right: 75%;
+  margin-left: 1%;
+}
+.card {
+  border: 1px solid black;
+  background-color: #FFC300;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.textreform {
+  font-family: 'B612 Mono', monospace;
+}
+#algorithmsbackground {
+  background-color: #5556ab;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#homebutton {
+  margin: 10px;
+  font-family: 'Staatliches';
+  color: black;
+}

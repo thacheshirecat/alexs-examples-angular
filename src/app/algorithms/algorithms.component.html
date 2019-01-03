@@ -1,4 +1,16 @@
-<h1><a routerLink="">Home</a></h1>
-<p>
-  algorithms works!
-</p>
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=B612+Mono|Staatliches" rel="stylesheet">
+
+<div id="algorithmsbackground">
+  <h1 ><a id="homebutton" routerLink="">Home</a></h1>
+  <div class="container">
+
+    <div class="card textreform">
+      <h4>Adding from 1 to n</h4>
+      <label>Input n:</label>
+      <input #addingoneton>
+      <button (click)="initAddingOneToN(addingoneton.value)">Submit</button>
+      <p>Result: {{addingonetonresult}}</p>
+    </div>
+  </div>
+</div>
