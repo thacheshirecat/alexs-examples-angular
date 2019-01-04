@@ -3,6 +3,7 @@ button {
   display: block;
   margin-right: 75%;
   margin-left: 1%;
+  margin-top: 1%;
 }
 input {
   margin-right: 75%;
@@ -14,9 +15,17 @@ input {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 }
 .textreform {
   font-family: 'B612 Mono', monospace;
+}
+.algorithmExplaination {
+  font-size: 12.5px;
+  margin: 2px;
+  margin-bottom: 25px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 #algorithmsbackground {
   background-color: #5556ab;
@@ -28,4 +37,7 @@ input {
   margin: 10px;
   font-family: 'Staatliches';
   color: black;
+}
+#binarySearchArrayInput{
+  margin-right: 25%;
 }

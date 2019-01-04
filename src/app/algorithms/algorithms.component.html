@@ -6,11 +6,24 @@
   <div class="container">
 
     <div class="card textreform">
-      <h4>Adding from 1 to n</h4>
-      <label>Input n:</label>
-      <input #addingoneton>
-      <button (click)="initAddingOneToN(addingoneton.value)">Submit</button>
-      <p>Result: {{addingonetonresult}}</p>
+      <h4>Sum a Number</h4>
+      <p class="algorithmExplaination">This simple algorithm takes in a number, and then sums up every number from 1 to the given number</p>
+      <label>Input a Number:</label>
+      <input #addingOneToN>
+      <button (click)="initAddingOneToN(addingOneToN.value)">Submit</button>
+      <p>Result: {{addingOneToNResult}}</p>
     </div>
+
+    <div class="card textreform">
+      <h4>Binary Search</h4>
+      <p class="algorithmExplaination">Binary Search requires a sorted array of numbers. You do not have to enter a sorted list, the algorithm will sort it for you. However, in order to properly run this algorithm you will need to enter your list of numbers seperated by a comma and a space "10, 1, 5, 1,001, 19, 4"</p>
+      <label>Input a list of numbers:</label>
+      <input id="binarySearchArrayInput" #binarySearchArray>
+      <label>Input number to search for:</label>
+      <input #binarySearchToFind>
+      <button (click)="initBinarySearch(binarySearchArray.value, binarySearchToFind.value)">Submit</button>
+      <p>Result: {{binarySearchResult}}</p>
+    </div>
+
   </div>
 </div>
